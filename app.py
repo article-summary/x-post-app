@@ -4,8 +4,7 @@ import openai
 
 # ✅ OpenAIクライアント設定
 client = openai.OpenAI(
-    api_key="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"
-)
+    api_key=st.secrets["OPENAI_API_KEY"])
 
 st.title("🧠 URLからX投稿ジェネレーター")
 
